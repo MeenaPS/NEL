@@ -1,0 +1,21 @@
+/* Quote details display style -start */
+#req_detail {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;}
+#req_detail td, #req_detail th {border: 1px solid #ddd;padding: 10px;}
+#req_detail tr:nth-child(even){background-color: #f2f2f2;}
+#req_detail tr:hover {background-color: #ddd;}
+#req_detail th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: #0067a2;color: white;}
+.quote_success{width: 600px;margin: 40px auto;padding: 30px 30px 30px 340px;color: #008000;display: inherit;font-size: 18px;}
+.reply_form_section{width: 600px;margin: 40px auto;background: #fff;padding: 10px 30px 30px 30px;border-radius: 6px;box-shadow: 8px 8px 10px #e0e0e0;border: 1px solid #dedddd;}
+.reply_form_section label{display: block;font-size: 16px;font-weight: 600;margin-top: 20px;}
+.reply_form_section .form-control, textarea{width: 100%;border-top: 0px;border-left: 0px;border-right: 0px;box-shadow: none;border-radius: none;margin-top: 10px;padding: 0px 0px 10px 0px;}
+.reply_form_section input[type="submit"]{margin-top: 20px;display: inline-block;padding: 5px 20px 5px 20px;background: #0067a2;border: none;color: #fff;font-size: 14px;border-radius: 3px;cursor: pointer;}
+.reply_form_section h2{border-bottom: 2px solid #0067a2;padding-bottom: 20px;font-size: 20px;color: #0067a2;text-transform: uppercase;}
+.status_error {width: 600px;margin: 40px auto;padding: 30px 30px 30px 240px;color: #FF0000;display: inherit;font-size: 18px;}
+.filter_form{margin-top:20px; margin-bottom: 20px;}
+.filtebtn { border: 1px solid #0067a2;background: #0067a2;width: 100px;color: #fff;border-radius: 3px;text-transform: uppercase;cursor: pointer;padding: 7px 0px 7px 0px;}
+.filter_option{padding: 2px;line-height: 28px;height: 28px;width: 200px;border: 0px;background: transparent;box-shadow: none;border-bottom: 2px solid #4e4e4e;padding-left: 0;}
+input.readonly, input[readonly]{background-color: #fff;}
+.reply_success_hide{background: #bbf5bb;color: #fff;padding: 10px;font-size: 14px;text-align: center;margin-bottom: 10px;position: absolute;right: 0px;z-index: 9999;width: 100%;}
+input:focus{box-shadow: none !important;border-color:#ddd !important;}textarea:focus{box-shadow: none !important;border-color:#ddd !important;}
+
+/* END */
